@@ -21,6 +21,7 @@ class CreateMahasiswaTable extends Migration
             $table->string('Alamat', 20);
             $table->string('No_Handphone', 15);
             $table->timestamps();
+            
 
         });
     }
